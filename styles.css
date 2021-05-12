@@ -1,0 +1,174 @@
+/* NOTE:
+H1- TOP-HEADINGS
+H2- BIG-HEADINGS
+H3- MEDIUM HEADING
+H4- MED-SM-HEADING
+H5- SMALL-HEADING
+H6- SMALLEST-HEADING */
+
+/* mains */
+body {
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat bold 700 italic", sans-serif;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 4.5rem;
+  line-height: 1.2;
+  color: black;
+  padding-top: 1.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 6rem;
+  text-align: center;
+  padding-top: 4%;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.container-fluid {
+  padding: 3% 10% 9%;
+}
+
+/* TITLE */
+#title {
+  background-color: #f0c929;
+  margin-bottom: 2px;
+  padding-bottom: .5px;
+}
+
+.man-image{
+  width: 60%;
+}
+
+.Download-buttons {
+  margin: 5% 2% 5% 0;
+  color: black;
+}
+
+ /* navbar */
+ .navbar {
+   padding: 0% 5%;
+   font-size: 1.5rem;
+   font-family: "Montserrat", sans-serif;
+ }
+
+ .navbar-brand {
+   font-size: 2rem;
+   word-spacing: .25rem;
+   font-family: "Ubuntu", sans-serif;
+ }
+
+ .nav-item {
+   padding-left: 1rem;
+ }
+
+ .nav-link {
+   font-family: sans-serif;
+   font-weight: lighter;
+ }
+
+.dropdown-menu{
+  background-color: #f0c929;
+}
+
+
+/* top-pics  */
+#top-pics {
+  padding: 2% 15% ;
+  align-items: center;
+  text-align: center;
+  spacing: 3rem;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.top-pics-box {
+  padding: 5%;
+}
+
+.icons {
+  color: #ffaec0;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ffaec0;
+  color: black;
+  padding-bottom: 5%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%
+}
+
+.carousel-item {
+  padding: 2% 20% 2%;
+}
+
+/* cta  */
+#cta-h3 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  color: black;
+  font-weight: bold;
+}
+
+#cta {
+  text-align: center;
+  background-color: #fff;
+  padding: 5rem 3rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* MEDIA QUAREY */
+@media (max-width:1000px) {
+  h2 {
+    font-size: 2.5rem;
+    line-height: normal;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #pricing {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.csslintric{
+  "ignore": [
+    "ids"
+  ]
+}
+}
